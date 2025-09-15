@@ -1,0 +1,28 @@
+/* 🌊 Global font + text color */
+body {
+  color: #1f2937; /* gray-800 */
+}
+
+/* Sidebar active link */
+.sidebar-active {
+  background-color: #2563eb; /* blue-600 */
+  color: white !important;
+  font-weight: 600;
+}
+
+/* Smooth hover for sidebar items */
+.sidebar-link {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #9ca3af; /* gray-400 */
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280; /* gray-500 */
+}
