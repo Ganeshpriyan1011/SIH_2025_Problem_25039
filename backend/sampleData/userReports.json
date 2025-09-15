@@ -1,0 +1,22 @@
+[
+  {
+    "source": "App",
+    "event_id": "APP_001",
+    "location": "Chennai Marina Beach",
+    "lat": 13.05,
+    "lon": 80.28,
+    "reports_count": 12,
+    "media_count": 2,
+    "description": "High waves flooding the promenade."
+  },
+  {
+    "source": "App",
+    "event_id": "APP_002",
+    "location": "Kovalam Beach",
+    "lat": 12.79,
+    "lon": 80.25,
+    "reports_count": 3,
+    "media_count": 0,
+    "description": "Unusual tide observed."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "SocialMedia",
+    "event_id": "SOC_001",
+    "platform": "Twitter",
+    "username": "@IndianCoastGuard",
+    "verified_user": true,
+    "location": "Chennai Port",
+    "lat": 13.07,
+    "lon": 80.27,
+    "reports_count": 1,
+    "description": "Warning issued: Rough sea near Chennai Port!"
+  },
+  {
+    "source": "SocialMedia",
+    "event_id": "SOC_002",
+    "platform": "Twitter",
+    "username": "@randomUser",
+    "verified_user": false,
+    "location": "Nagapattinam",
+    "lat": 10.77,
+    "lon": 79.84,
+    "reports_count": 1,
+    "description": "Sea flooding boats here!"
+  }
+]
