@@ -190,7 +190,7 @@ sequenceDiagram
     participant DB as ☁️ Azure Cloud
     participant NLP as 🤖 NLP Model
     participant Social as 📱 Social Media
-    participant Off as 🏛️ Official
+    participant Official as 🏛️ Official
     participant Map as 🗺️ Map System
     
     C->>Auth: Register/Login (OTP)
@@ -205,9 +205,9 @@ sequenceDiagram
     NLP->>NLP: Hazard Classification
     NLP->>DB: Store Analysis
     
-    DB->>Off: Send for Validation
-    Off->>DB: Verify/Remove False Reports
-    Off->>DB: Declare Hazard Zones
+    DB->>Official: Send for Validation
+    Official->>DB: Verify/Remove False Reports
+    Official->>DB: Declare Hazard Zones
     
     DB->>Map: Update Hazard Locations
     Map->>C: Display on Dashboard
