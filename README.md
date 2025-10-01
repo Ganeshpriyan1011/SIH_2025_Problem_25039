@@ -1,4 +1,4 @@
-# SIH_2026_Problem_25039# 🌊 Coastal Guardian
+# 🌊 Coastal Guardian
 
 ### *AI-Powered Citizen-Driven Disaster Monitoring Ecosystem*
 
@@ -51,24 +51,24 @@ graph LR
 <tr>
 <td width="33%" align="center">
 
-### 🛰️ **Unified Reporting**
-Real-time geo-tagged reports with multimedia evidence
+### 🛰️ **Multi-Role Access**
+Admin, Official, Analyst & Citizen portals with OTP authentication
 <br/>
-<img src="https://img.icons8.com/fluency/96/000000/geography.png" width="64"/>
+<img src="https://img.icons8.com/fluency/96/000000/user-credentials.png" width="64"/>
 
 </td>
 <td width="33%" align="center">
 
-### 🗺️ **Smart Dashboard**
-Interactive maps with AI-powered hazard hotspots
+### 🗺️ **Interactive Maps**
+Leaflet-powered real-time hazard visualization & zone declarations
 <br/>
 <img src="https://img.icons8.com/fluency/96/000000/dashboard.png" width="64"/>
 
 </td>
 <td width="33%" align="center">
 
-### 🤖 **AI Analytics**
-Machine learning for prediction & classification
+### 🤖 **NLP Processing**
+Google Gemini API for sentiment analysis & hazard classification
 <br/>
 <img src="https://img.icons8.com/fluency/96/000000/artificial-intelligence.png" width="64"/>
 
@@ -78,24 +78,24 @@ Machine learning for prediction & classification
 <tr>
 <td width="33%" align="center">
 
-### 🔐 **Secure Access**
-Role-based authentication with JWT & encryption
+### 📱 **Social Media Integration**
+Real-time hazard detection from social platforms
 <br/>
-<img src="https://img.icons8.com/fluency/96/000000/security-checked.png" width="64"/>
+<img src="https://img.icons8.com/fluency/96/000000/social-network.png" width="64"/>
 
 </td>
 <td width="33%" align="center">
 
-### 📡 **Offline Ready**
-PWA with cloud sync for disaster scenarios
+### ☁️ **Azure Cloud**
+Secure storage for reports, user data & analysis
 <br/>
-<img src="https://img.icons8.com/fluency/96/000000/offline.png" width="64"/>
+<img src="https://img.icons8.com/fluency/96/000000/azure-1.png" width="64"/>
 
 </td>
 <td width="33%" align="center">
 
-### 🌐 **Multilingual**
-Supports 17+ Indian languages for inclusivity
+### 🌐 **Multilingual Support**
+Chatbot & interface in 17+ Indian languages
 <br/>
 <img src="https://img.icons8.com/fluency/96/000000/language.png" width="64"/>
 
@@ -105,50 +105,115 @@ Supports 17+ Indian languages for inclusivity
 
 ---
 
-## 🏗️ Architecture Overview
+## 🏗️ System Architecture
 
 ```mermaid
 flowchart TB
-    subgraph Frontend["🎨 Frontend Layer"]
-        A[React PWA] --> B[Leaflet Maps]
-        A --> C[Camera/GPS APIs]
-        A --> D[Offline Storage]
+    subgraph Users["👥 User Registration & Access"]
+        A1[🔴 Admin<br/>xxx@official.gov.in]
+        A2[🟡 Government Official<br/>xxx@official.gov.in]
+        A3[🔵 Analyst<br/>xxx@analyst.gov.in]
+        A4[🟢 Citizen<br/>xxx@gmail.com]
     end
     
-    subgraph Backend["⚙️ Backend Layer"]
-        E[Node.js/Express] --> F[REST APIs]
-        E --> G[WebSocket Server]
-        E --> H[JWT Auth]
+    subgraph Auth["🔐 Authentication Layer"]
+        B1[Login & Registration]
+        B2[OTP Verification]
+        B3[Email Validation]
+        B4[Role-Based Access Control]
     end
     
-    subgraph AI["🧠 AI/ML Layer"]
-        I[Google Gemini] --> J[Hazard Classification]
-        K[TensorFlow Lite] --> L[Sentiment Analysis]
-        M[Python/Scikit-learn] --> N[Trend Prediction]
+    subgraph Dashboards["📊 Role-Based Dashboards"]
+        C1[🔴 Admin Dashboard<br/>- Manage Users<br/>- Assign Roles]
+        C2[🟡 Official Dashboard<br/>- View Hazards<br/>- Remove False Reports<br/>- Declare Hazard Zones]
+        C3[🔵 Analyst Dashboard<br/>- Analyze Reports<br/>- View Hazards in Map]
+        C4[🟢 Citizen Dashboard<br/>- View Hazards<br/>- Submit Reports<br/>- Receive Notifications]
     end
     
-    subgraph Data["💾 Data Layer"]
-        O[Azure Cloud DB] --> P[User Reports]
-        O --> Q[Analytics Data]
-        O --> R[Media Storage]
+    subgraph AILayer["🤖 AI & NLP Processing"]
+        D1[NLP Model<br/>Gemini API]
+        D2[Social Media API]
+        D3[Sentiment Analysis]
+        D4[Hazard Classification]
     end
     
-    subgraph Integration["🔗 Integration Layer"]
-        S[INCOIS API] --> T[Early Warnings]
-        U[IMD API] --> V[Weather Data]
-        W[Social Media] --> X[Crowdsourced Intel]
+    subgraph Features["✨ Core Features"]
+        E1[🗺️ Map Visualization<br/>Leaflet]
+        E2[💬 Multilingual Chatbot<br/>Gemini LLM]
+        E3[🌐 Multi-lingual Handler]
+        E4[📱 Real-time Notifications]
     end
     
-    Frontend --> Backend
-    Backend --> AI
-    Backend --> Data
-    Backend --> Integration
+    subgraph Storage["☁️ Cloud Infrastructure"]
+        F1[(Azure Cloud Storage<br/>User Data & Reports)]
+    end
     
-    style Frontend fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style Backend fill:#7B68EE,stroke:#5A4BC5,stroke-width:3px,color:#fff
-    style AI fill:#50C878,stroke:#3A9B5C,stroke-width:3px,color:#fff
-    style Data fill:#FFA500,stroke:#CC8400,stroke-width:3px,color:#fff
-    style Integration fill:#FF6B6B,stroke:#CC5555,stroke-width:3px,color:#fff
+    A1 & A2 & A3 & A4 --> B1
+    B1 --> B2
+    B2 --> B3
+    B3 --> B4
+    B4 --> F1
+    
+    B4 --> C1 & C2 & C3 & C4
+    
+    C4 --> D2
+    D2 --> D1
+    D1 --> D3 & D4
+    D4 --> C2 & C3
+    
+    C4 --> F1
+    C2 --> F1
+    C3 --> F1
+    
+    C2 & C3 & C4 --> E1
+    C4 --> E2
+    E2 --> E3
+    E3 --> E2
+    
+    F1 --> E4
+    E4 --> C4
+    
+    style Users fill:#FFD700,stroke:#FFA500,stroke-width:3px
+    style Auth fill:#DEB887,stroke:#8B7355,stroke-width:3px
+    style Dashboards fill:#D2B48C,stroke:#A0826D,stroke-width:3px
+    style AILayer fill:#FF8C00,stroke:#CC7000,stroke-width:3px
+    style Features fill:#32CD32,stroke:#228B22,stroke-width:3px
+    style Storage fill:#87CEEB,stroke:#4682B4,stroke-width:3px
+```
+
+### 🔄 Data Flow Architecture
+
+```mermaid
+sequenceDiagram
+    participant C as 👤 Citizen
+    participant Auth as 🔐 Auth System
+    participant DB as ☁️ Azure Cloud
+    participant NLP as 🤖 NLP Model
+    participant Social as 📱 Social Media
+    participant Off as 🏛️ Official
+    participant Map as 🗺️ Map System
+    
+    C->>Auth: Register/Login (OTP)
+    Auth->>DB: Validate & Store
+    DB-->>Auth: User Credentials
+    Auth-->>C: Dashboard Access
+    
+    C->>DB: Submit Hazard Report
+    DB->>Social: Fetch Social Media Data
+    Social->>NLP: Analyze Content
+    NLP->>NLP: Sentiment Analysis
+    NLP->>NLP: Hazard Classification
+    NLP->>DB: Store Analysis
+    
+    DB->>Off: Send for Validation
+    Off->>DB: Verify/Remove False Reports
+    Off->>DB: Declare Hazard Zones
+    
+    DB->>Map: Update Hazard Locations
+    Map->>C: Display on Dashboard
+    DB->>C: Push Notifications
+    
+    Note over C,Map: Real-time Updates with Multilingual Support
 ```
 
 ---
@@ -221,26 +286,49 @@ flowchart TB
 ## 🎬 How It Works
 
 ```mermaid
-sequenceDiagram
-    participant C as 👤 Citizen
-    participant A as 📱 App
-    participant AI as 🤖 AI Engine
-    participant V as ✅ Verifier
-    participant G as 🏛️ Government
-    participant P as 📢 Public Alert
+graph LR
+    A[👤 User Registration] -->|OTP Verification| B[Email Validation]
+    B -->|Role Assignment| C{User Type}
     
-    C->>A: Report Hazard (Photo/Video)
-    A->>AI: Analyze Content & Location
-    AI->>AI: Classify Hazard Type
-    AI->>AI: Calculate Severity Score
-    AI->>V: Submit for Verification
-    V->>V: Cross-check with Sensors
-    V->>G: Notify Authorities
-    V->>P: Trigger Public Alerts
-    P->>C: Receive Safety Instructions
+    C -->|Admin| D[👨‍💼 Manage Users<br/>Assign Roles]
+    C -->|Official| E[🏛️ Validate Reports<br/>Declare Zones]
+    C -->|Analyst| F[📊 Analyze Data<br/>View Patterns]
+    C -->|Citizen| G[📱 Submit Reports<br/>View Hazards]
     
-    Note over C,P: Average Processing Time: 3-8 seconds
+    G -->|Report + Media| H[(Azure Cloud)]
+    H -->|Fetch Data| I[📱 Social Media APIs]
+    I -->|Text Analysis| J[🤖 NLP Model<br/>Gemini]
+    J -->|Classification| K[Hazard Type<br/>Sentiment Score]
+    
+    K -->|Send to| E
+    E -->|Verify & Approve| L[✅ Validated Report]
+    L -->|Update| M[🗺️ Map Visualization]
+    L -->|Notify| G
+    
+    M -->|Display to| D & E & F & G
+    
+    N[💬 Multilingual Chatbot] -.->|Support| G
+    O[🌐 Language Handler] -.->|Translate| N
+    
+    style A fill:#FFD700,stroke:#FFA500,stroke-width:2px
+    style J fill:#FF8C00,stroke:#CC7000,stroke-width:2px
+    style H fill:#87CEEB,stroke:#4682B4,stroke-width:2px
+    style M fill:#32CD32,stroke:#228B22,stroke-width:2px
+    style N fill:#FF6347,stroke:#DC143C,stroke-width:2px
 ```
+
+### ⚡ Key Process Flows
+
+| Step | Process | Technology | Time |
+|------|---------|------------|------|
+| 1️⃣ | **User Registration** | OTP via Email → Role Assignment | ~30 sec |
+| 2️⃣ | **Report Submission** | Citizen uploads hazard with location/media | ~10 sec |
+| 3️⃣ | **Social Media Scan** | APIs fetch related posts automatically | Real-time |
+| 4️⃣ | **NLP Analysis** | Gemini classifies hazard type & sentiment | ~3-5 sec |
+| 5️⃣ | **Official Verification** | Government officials validate/reject reports | Manual |
+| 6️⃣ | **Zone Declaration** | Officials mark areas as hazard zones on map | Manual |
+| 7️⃣ | **Public Notification** | All users receive alerts + map updates | Instant |
+| 8️⃣ | **Multilingual Support** | Chatbot provides help in user's language | 24/7 |
 
 ---
 
@@ -289,27 +377,33 @@ docker-compose up -d
 <table>
 <tr>
 <th>🧑‍💼 Role</th>
+<th>📧 Registration</th>
 <th>🎯 Key Features</th>
 <th>🔑 Access Level</th>
 </tr>
 <tr>
 <td>
 
-**👥 Citizen**
+**🔴 Admin**
 
 </td>
 <td>
 
-- Submit hazard reports with media
-- View nearby hazards on map
-- Receive emergency alerts
-- Chat with AI assistant
-- Track report status
+`xxx@official.gov.in`
+
+</td>
+<td>
+
+- Manage all system users
+- Assign/modify user roles
+- Override permissions
+- System configuration
+- View all dashboards
 
 </td>
 <td align="center">
 
-🟢 Public
+🔴 Full Access
 
 </td>
 </tr>
@@ -317,16 +411,21 @@ docker-compose up -d
 <tr>
 <td>
 
-**🏛️ Official**
+**🟡 Government Official**
 
 </td>
 <td>
 
-- Verify citizen reports
-- Access analytics dashboard
-- Manage alerts & notifications
-- View historical trends
-- Export data reports
+`xxx@official.gov.in`
+
+</td>
+<td>
+
+- View hazards on interactive map
+- Validate/remove false reports
+- Declare official hazard zones
+- Access report analytics
+- Manage public alerts
 
 </td>
 <td align="center">
@@ -339,25 +438,65 @@ docker-compose up -d
 <tr>
 <td>
 
-**📊 Analyst**
+**🔵 Analyst**
 
 </td>
 <td>
 
-- Deep-dive analytics
-- AI model training
-- Predictive modeling
-- Integration management
-- System configuration
+`xxx@analyst.gov.in`
+
+</td>
+<td>
+
+- View all hazards on map
+- Deep-dive data analysis
+- Access NLP insights
+- Review sentiment trends
+- Generate reports
 
 </td>
 <td align="center">
 
-🔴 Admin
+🔵 Read/Analyze
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**🟢 Citizen**
+
+</td>
+<td>
+
+`xxx@gmail.com`
+
+</td>
+<td>
+
+- Submit hazard reports with media
+- View nearby hazards on map
+- Receive real-time notifications
+- Chat with multilingual AI bot
+- Track report status
+
+</td>
+<td align="center">
+
+🟢 Public
 
 </td>
 </tr>
 </table>
+
+### 🔐 Authentication Flow
+
+All users must complete:
+1. **Email Registration** with role-specific domain
+2. **OTP Verification** sent to registered email
+3. **Role-Based Dashboard** access granted after validation
+4. **Session Management** via secure Azure Cloud storage
 
 ---
 
