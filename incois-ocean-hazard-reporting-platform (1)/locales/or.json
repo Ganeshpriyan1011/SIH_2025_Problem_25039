@@ -1,0 +1,114 @@
+{
+  "header": {
+    "title": "ମହାସାଗର ବିପଦ ସତର୍କ",
+    "newReportButton": "ନୂଆ ରିପୋର୍ଟ",
+    "profile": "ପ୍ରୋଫାଇଲ୍",
+    "logout": "ଲଗ୍ଆଉଟ୍",
+    "reportHistory": "ମୋର ରିପୋର୍ଟ"
+  },
+  "auth": {
+    "mainTitle": "INCOIS ବିପଦ ସତର୍କ",
+    "subtitle": "ନାଗରିକ ଏବଂ ପ୍ରାଧିକରଣ ସହଯୋଗ ମଞ୍ଚ",
+    "createAccountTitle": "ଖାତା ସୃଷ୍ଟି କରନ୍ତୁ",
+    "loginTitle": "ଲଗଇନ୍ କରନ୍ତୁ",
+    "usernameLabel": "ବ୍ୟବହାରକାରୀ ନାମ",
+    "usernamePlaceholder": "ଆପଣଙ୍କ ନାମ ପ୍ରବେଶ କରନ୍ତୁ",
+    "roleLabel": "ଭୂମିକା ଚୟନ କରନ୍ତୁ",
+    "registerButton": "ପଞ୍ଜିକରଣ କରନ୍ତୁ",
+    "loginButton": "ଡ୍ୟାସବୋର୍ଡକୁ ଲଗଇନ୍ କରନ୍ତୁ",
+    "alreadyAccount": "ପୂର୍ବରୁ ଖାତା ଅଛି କି?",
+    "noAccount": "ଖାତା ନାହିଁ କି?",
+    "errorExists": "ବ୍ୟବହାରକାରୀ ନାମ ପୂର୍ବରୁ ଅଛି।",
+    "errorInvalid": "ଅବୈଧ ବ୍ୟବହାରକାରୀ ନାମ କିମ୍ବା ଭୂମିକା। ଯଦି ଆପଣ ନୂଆ ବ୍ୟବହାରକାରୀ, ଦୟାକରି ପଞ୍ଜିକରଣ କରନ୍ତୁ।"
+  },
+  "roles": {
+    "Citizen": "ନାଗରିକ ରିପୋର୍ଟର",
+    "Official": "ସରକାରୀ ଅଧିକାରୀ",
+    "Analyst": "INCOIS ବିଶ୍ଳେଷକ"
+  },
+  "sidePanel": {
+    "reports": "ରିପୋର୍ଟଗୁଡିକ",
+    "socialFeed": "ସୋସିଆଲ୍ ଫିଡ୍",
+    "filters": "ଫିଲ୍ଟର୍ସ",
+    "analytics": "ବିଶ୍ଳେଷଣ"
+  },
+  "reportList": {
+    "title": "ଲାଇଭ୍ ବିପଦ ରିପୋର୍ଟଗୁଡିକ",
+    "searchPlaceholder": "ସ୍ଥାନ, ବିପଦ, କୀୱାର୍ଡ ଦ୍ୱାରା ଖୋଜନ୍ତୁ...",
+    "confidenceScore": "ଆତ୍ମବିଶ୍ୱାସ ସ୍କୋର୍",
+    "fullReport": "ସମ୍ପୂର୍ଣ୍ଣ ରିପୋର୍ଟ",
+    "by": "ଦ୍ୱାରା",
+    "verified": "ସତ୍ୟାପିତ",
+    "verifyButton": "ରିପୋର୍ଟ ସତ୍ୟାପନ କରନ୍ତୁ",
+    "noReports": "ବର୍ତ୍ତମାନର ମାନଦଣ୍ଡ ସହିତ କୌଣସି ରିପୋର୍ଟ ମେଳ ଖାଉ ନାହିଁ।"
+  },
+  "reportHistory": {
+    "title": "ମୋର ରିପୋର୍ଟ ଇତିହାସ",
+    "pending": "ସତ୍ୟାପନ ବାକି ଅଛି",
+    "noReports": "ଆପଣ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ରିପୋର୍ଟ ଦାଖଲ କରିନାହାଁନ୍ତି।",
+    "close": "ବନ୍ଦ କରନ୍ତୁ"
+  },
+  "socialFeed": {
+    "title": "ସୋସିଆଲ୍ ମିଡିଆ ଟ୍ରେଣ୍ଡସ୍",
+    "subtitle": "ବିପଦ ଉପରେ ସାର୍ବଜନୀନ ଆଲୋଚନାଗୁଡିକର ନୀରିକ୍ଷଣ।"
+  },
+  "filterPanel": {
+    "title": "ବିପଦ ପ୍ରକାର ଅନୁଯାୟୀ ଫିଲ୍ଟର୍ କରନ୍ତୁ",
+    "clearAll": "ସମସ୍ତ ଫିଲ୍ଟର୍ ସଫା କରନ୍ତୁ"
+  },
+  "hazards": {
+    "Tsunami": "ସୁନାମି",
+    "StormSurge": "ବାତ୍ୟା ସର୍ଜ",
+    "HighWaves": "ଉଚ୍ଚ ତରଙ୍ଗ",
+    "CoastalCurrents": "ଉପକୂଳୀୟ ସ୍ରୋତ",
+    "SwellSurge": "ସ୍ୱେଲ୍ ସର୍ଜ",
+    "CoastalFlooding": "ଉପକୂଳୀୟ ବନ୍ୟା",
+    "Other": "ଅନ୍ୟ"
+  },
+  "reportForm": {
+    "title": "ନୂଆ ବିପଦ ରିପୋର୍ଟ ଦାଖଲ କରନ୍ତୁ",
+    "hazardTypeLabel": "ବିପଦ ପ୍ରକାର",
+    "descriptionLabel": "ବିବରଣୀ",
+    "descriptionPlaceholder": "ଆପଣ ଯାହା ଦେଖୁଛନ୍ତି ତାହା ବର୍ଣ୍ଣନା କରନ୍ତୁ...",
+    "photoLabel": "ଫଟୋ ଅପଲୋଡ୍ କରନ୍ତୁ (ବୈକଳ୍ପିକ)",
+    "locationLabel": "ସ୍ଥାନ ଚୟନ କରନ୍ତୁ",
+    "coordinates": "କୋର୍ଡିନେଟ୍ସ",
+    "geocodedLocation": "ଜିଓକୋଡେଡ୍ ସ୍ଥାନ",
+    "fetchingLocation": "ଆଣୁଛି...",
+    "locationError": "ଦୟାକରି ମାନଚିତ୍ରରେ ଏକ ସ୍ଥାନ ଚୟନ କରନ୍ତୁ।",
+    "cancel": "ବାତିଲ୍ କରନ୍ତୁ",
+    "submit": "ରିପୋର୍ଟ ଦାଖଲ କରନ୍ତୁ"
+  },
+  "profileModal": {
+    "title": "ବ୍ୟବହାରକାରୀ ପ୍ରୋଫାଇଲ୍",
+    "usernameLabel": "ବ୍ୟବହାରକାରୀ ନାମ",
+    "roleLabel": "ଭୂମିକା",
+    "save": "ପରିବର୍ତ୍ତନଗୁଡିକ ସଂରକ୍ଷଣ କରନ୍ତୁ"
+  },
+  "analyticsPanel": {
+    "title": "ବିଶ୍ଳେଷଣ ଡ୍ୟାସବୋର୍ଡ",
+    "subtitle": "ବର୍ତ୍ତମାନର ଘଟଣାଗୁଡିକର ଉଚ୍ଚ-ସ୍ତରୀୟ ସମୀକ୍ଷା।",
+    "totalReports": "ମୋଟ ରିପୋର୍ଟ",
+    "verifiedReports": "ସତ୍ୟାପିତ ରିପୋର୍ଟ",
+    "reportsByType": "ବିପଦ ପ୍ରକାର ଅନୁଯାୟୀ ରିପୋର୍ଟ",
+    "socialSentiment": "ସୋସିଆଲ୍ ମିଡିଆ ଭାବନା",
+    "positive": "ସକାରାତ୍ମକ",
+    "neutral": "ନିରପେକ୍ଷ",
+    "negative": "ନକାରାତ୍ମକ"
+  },
+  "notifications": {
+    "loading": "INCOIS ପ୍ଲାଟଫର୍ମ ଲୋଡ୍ ହେଉଛି...",
+    "loadFail": "ପ୍ରାରମ୍ଭିକ ଡାଟା ଲୋଡ୍ କରିବାରେ ବିଫଳ।",
+    "summaryFail": "AI ସାରାଂଶ ସୃଷ୍ଟି କରାଯାଇ ପାରିଲା ନାହିଁ।",
+    "submitSuccess": "ବିପଦ ରିପୋର୍ଟ ସଫଳତାର ସହ ଦାଖଲ ହେଲା!",
+    "submitFail": "ରିପୋର୍ଟ ଦାଖଲ କରିବାରେ ବିଫଳ।",
+    "profileUpdateSuccess": "ପ୍ରୋଫାଇଲ୍ ସଫଳତାର ସହ ଅଦ୍ୟତନ ହେଲା!",
+    "profileUpdateFail": "ପ୍ରୋଫାଇଲ୍ ଅଦ୍ୟତନ କରିବାରେ ବିଫଳ।",
+    "verifyPermissionFail": "ଆପଣଙ୍କୁ ରିପୋର୍ଟ ସତ୍ୟାପନ କରିବାକୁ ଅନୁମତି ନାହିଁ।",
+    "verifySuccess": "ରିପୋର୍ଟ ସତ୍ୟାପିତ ଏବଂ ଆତ୍ମବିଶ୍ୱାସ ଅଦ୍ୟତନ ହେଲା।",
+    "verifyFail": "ରିପୋର୍ଟ ସତ୍ୟାପନ କରିବାରେ ବିଫଳ।"
+  },
+  "map": {
+    "legendTitle": "କିମ୍ବଦନ୍ତୀ"
+  }
+}

@@ -1,0 +1,114 @@
+export default {
+  "header": {
+    "title": "ਸਮੁੰਦਰੀ ਖ਼ਤਰੇ ਦੀ ਨਿਗਰਾਨੀ",
+    "newReportButton": "ਨਵੀਂ ਰਿਪੋਰਟ",
+    "profile": "ਪ੍ਰੋਫਾਈਲ",
+    "logout": "ਲੌਗਆਊਟ",
+    "reportHistory": "ਮੇਰੀਆਂ ਰਿਪੋਰਟਾਂ"
+  },
+  "auth": {
+    "mainTitle": "INCOIS ਖ਼ਤਰੇ ਦੀ ਨਿਗਰਾਨੀ",
+    "subtitle": "ਨਾਗਰਿਕ ਅਤੇ ਅਥਾਰਟੀ ਸਹਿਯੋਗ ਪਲੇਟਫਾਰਮ",
+    "createAccountTitle": "ਖਾਤਾ ਬਣਾਓ",
+    "loginTitle": "ਲੌਗਇਨ",
+    "usernameLabel": "ਉਪਭੋਗਤਾ ਨਾਮ",
+    "usernamePlaceholder": "ਆਪਣਾ ਨਾਮ ਦਰਜ ਕਰੋ",
+    "roleLabel": "ਭੂਮਿਕਾ ਚੁਣੋ",
+    "registerButton": "ਰਜਿਸਟਰ ਕਰੋ",
+    "loginButton": "ਡੈਸ਼ਬੋਰਡ 'ਤੇ ਲੌਗਇਨ ਕਰੋ",
+    "alreadyAccount": "ਪਹਿਲਾਂ ਹੀ ਖਾਤਾ ਹੈ?",
+    "noAccount": "ਖਾਤਾ ਨਹੀਂ ਹੈ?",
+    "errorExists": "ਉਪਭੋਗਤਾ ਨਾਮ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ।",
+    "errorInvalid": "ਅਵੈਧ ਉਪਭੋਗਤਾ ਨਾਮ ਜਾਂ ਭੂਮਿਕਾ। ਜੇਕਰ ਤੁਸੀਂ ਨਵੇਂ ਉਪਭੋਗਤਾ ਹੋ ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਰਜਿਸਟਰ ਕਰੋ।"
+  },
+  "roles": {
+    "Citizen": "ਨਾਗਰਿਕ ਰਿਪੋਰਟਰ",
+    "Official": "ਸਰਕਾਰੀ ਅਧਿਕਾਰੀ",
+    "Analyst": "INCOIS ਵਿਸ਼ਲੇਸ਼ਕ"
+  },
+  "sidePanel": {
+    "reports": "ਰਿਪੋਰਟਾਂ",
+    "socialFeed": "ਸੋਸ਼ਲ ਫੀਡ",
+    "filters": "ਫਿਲਟਰ",
+    "analytics": "ਵਿਸ਼ਲੇਸ਼ਣ"
+  },
+  "reportList": {
+    "title": "ਲਾਈਵ ਖ਼ਤਰੇ ਦੀਆਂ ਰਿਪੋਰਟਾਂ",
+    "searchPlaceholder": "ਸਥਾਨ, ਖ਼ਤਰੇ, ਕੀਵਰਡ ਦੁਆਰਾ ਖੋਜ ਕਰੋ...",
+    "confidenceScore": "ਵਿਸ਼ਵਾਸ ਸਕੋਰ",
+    "fullReport": "ਪੂਰੀ ਰਿਪੋਰਟ",
+    "by": "ਦੁਆਰਾ",
+    "verified": "ਪ੍ਰਮਾਣਿਤ",
+    "verifyButton": "ਰਿਪੋਰਟ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+    "noReports": "ਮੌਜੂਦਾ ਮਾਪਦੰਡਾਂ ਨਾਲ ਕੋਈ ਰਿਪੋਰਟ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ।"
+  },
+  "reportHistory": {
+    "title": "ਮੇਰਾ ਰਿਪੋਰਟ ਇਤਿਹਾਸ",
+    "pending": "ਪੁਸ਼ਟੀ ਦੀ ਉਡੀਕ ਹੈ",
+    "noReports": "ਤੁਸੀਂ ਹਾਲੇ ਤੱਕ ਕੋਈ ਰਿਪੋਰਟ ਜਮ੍ਹਾਂ ਨਹੀਂ ਕੀਤੀ।",
+    "close": "ਬੰਦ ਕਰੋ"
+  },
+  "socialFeed": {
+    "title": "ਸੋਸ਼ਲ ਮੀਡੀਆ ਰੁਝਾਨ",
+    "subtitle": "ਖ਼ਤਰਿਆਂ 'ਤੇ ਜਨਤਕ ਚਰਚਾਵਾਂ ਦੀ ਨਿਗਰਾਨੀ ਕਰਨਾ।"
+  },
+  "filterPanel": {
+    "title": "ਖ਼ਤਰੇ ਦੀ ਕਿਸਮ ਅਨੁਸਾਰ ਫਿਲਟਰ ਕਰੋ",
+    "clearAll": "ਸਾਰੇ ਫਿਲਟਰ ਸਾਫ਼ ਕਰੋ"
+  },
+  "hazards": {
+    "Tsunami": "ਸੁਨਾਮੀ",
+    "StormSurge": "ਤੂਫਾਨੀ ਲਹਿਰ",
+    "HighWaves": "ਉੱਚੀਆਂ ਲਹਿਰਾਂ",
+    "CoastalCurrents": "ਤੱਟਵਰਤੀ ਧਾਰਾਵਾਂ",
+    "SwellSurge": "ਉਛਾਲ",
+    "CoastalFlooding": "ਤੱਟਵਰਤੀ ਹੜ੍ਹ",
+    "Other": "ਹੋਰ"
+  },
+  "reportForm": {
+    "title": "ਨਵੀਂ ਖ਼ਤਰੇ ਦੀ ਰਿਪੋਰਟ ਜਮ੍ਹਾਂ ਕਰੋ",
+    "hazardTypeLabel": "ਖ਼ਤਰੇ ਦੀ ਕਿਸਮ",
+    "descriptionLabel": "ਵਰਣਨ",
+    "descriptionPlaceholder": "ਤੁਸੀਂ ਜੋ ਦੇਖ ਰਹੇ ਹੋ ਉਸਦਾ ਵਰਣਨ ਕਰੋ...",
+    "photoLabel": "ਫੋਟੋ ਅਪਲੋਡ ਕਰੋ (ਵਿਕਲਪਿਕ)",
+    "locationLabel": "ਸਥਾਨ ਚੁਣੋ",
+    "coordinates": "ਕੋਆਰਡੀਨੇਟਸ",
+    "geocodedLocation": "ਜੀਓਕੋਡਡ ਸਥਾਨ",
+    "fetchingLocation": "ਪ੍ਰਾਪਤ ਕਰ ਰਿਹਾ ਹੈ...",
+    "locationError": "ਕਿਰਪਾ ਕਰਕੇ ਨਕਸ਼ੇ 'ਤੇ ਇੱਕ ਸਥਾਨ ਚੁਣੋ।",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "submit": "ਰਿਪੋਰਟ ਜਮ੍ਹਾਂ ਕਰੋ"
+  },
+  "profileModal": {
+    "title": "ਉਪਭੋਗਤਾ ਪ੍ਰੋਫਾਈਲ",
+    "usernameLabel": "ਉਪਭੋਗਤਾ ਨਾਮ",
+    "roleLabel": "ਭੂਮਿਕਾ",
+    "save": "ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ"
+  },
+  "analyticsPanel": {
+    "title": "ਵਿਸ਼ਲੇਸ਼ਣ ਡੈਸ਼ਬੋਰਡ",
+    "subtitle": "ਮੌਜੂਦਾ ਘਟਨਾਵਾਂ ਦੀ ਉੱਚ-ਪੱਧਰੀ ਸੰਖੇਪ ਜਾਣਕਾਰੀ।",
+    "totalReports": "ਕੁੱਲ ਰਿਪੋਰਟਾਂ",
+    "verifiedReports": "ਪ੍ਰਮਾਣਿਤ ਰਿਪੋਰਟਾਂ",
+    "reportsByType": "ਖ਼ਤਰੇ ਦੀ ਕਿਸਮ ਅਨੁਸਾਰ ਰਿਪੋਰਟਾਂ",
+    "socialSentiment": "ਸੋਸ਼ਲ ਮੀਡੀਆ ਭਾਵਨਾ",
+    "positive": "ਸਕਾਰਾਤਮਕ",
+    "neutral": "ਨਿਰਪੱਖ",
+    "negative": "ਨਕਾਰਾਤਮਕ"
+  },
+  "notifications": {
+    "loading": "INCOIS ਪਲੇਟਫਾਰਮ ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "loadFail": "ਸ਼ੁਰੂਆਤੀ ਡਾਟਾ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "summaryFail": "AI ਸਾਰਾਂਸ਼ ਤਿਆਰ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।",
+    "submitSuccess": "ਖ਼ਤਰੇ ਦੀ ਰਿਪੋਰਟ ਸਫਲਤਾਪੂਰਵਕ ਜਮ੍ਹਾਂ ਹੋ ਗਈ!",
+    "submitFail": "ਰਿਪੋਰਟ ਜਮ੍ਹਾਂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "profileUpdateSuccess": "ਪ੍ਰੋਫਾਈਲ ਸਫਲਤਾਪੂਰਵਕ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ!",
+    "profileUpdateFail": "ਪ੍ਰੋਫਾਈਲ ਅੱਪਡੇਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "verifyPermissionFail": "ਤੁਹਾਨੂੰ ਰਿਪੋਰਟਾਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।",
+    "verifySuccess": "ਰਿਪੋਰਟ ਪ੍ਰਮਾਣਿਤ ਅਤੇ ਵਿਸ਼ਵਾਸ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ।",
+    "verifyFail": "ਰਿਪੋਰਟ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।"
+  },
+  "map": {
+    "legendTitle": "ਦੰਤਕਥਾ"
+  }
+}

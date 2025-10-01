@@ -1,0 +1,114 @@
+export default {
+  "header": {
+    "title": "سمندرٕ خطرٕ نِگرٲنی",
+    "newReportButton": "نٔوؠ رِپورٹ",
+    "profile": "پروفایل",
+    "logout": "لاگ آوٹ",
+    "reportHistory": "مےٚ رِپورٹ"
+  },
+  "auth": {
+    "mainTitle": "INCOIS خطرٕ نِگرٲنی",
+    "subtitle": "شہری تہٕ حکام تعاون پلیٹ فارم",
+    "createAccountTitle": "اکاونٹ بنایو",
+    "loginTitle": "لاگِن",
+    "usernameLabel": "صٲرِف ناو",
+    "usernamePlaceholder": "پنُن ناو دِیو",
+    "roleLabel": "کردار ژارِیو",
+    "registerButton": "رجِسٹَر",
+    "loginButton": "ڈیش بورڈَس منٛز لاگِن",
+    "alreadyAccount": "کیا تُہہؠ چھُ گۆڈٕنیوک اکاونٹ؟",
+    "noAccount": "کیا تُہہؠ چھُ نہٕ اکاونٹ؟",
+    "errorExists": "صٲرِف ناو چھُ گۆڈٕی موجود۔",
+    "errorInvalid": "غلط صٲرِف ناو یا کردار۔ اگر تُہہؠ نٔوؠ صٲرِف چھِو مہربٲنی کرِتھ رجِسٹَر کٔرِو۔"
+  },
+  "roles": {
+    "Citizen": "شہری رِپورٹَر",
+    "Official": "سرکٲرۍ اہلکار",
+    "Analyst": "INCOIS تَجزِی نگار"
+  },
+  "sidePanel": {
+    "reports": "رِپورٹ",
+    "socialFeed": "سوشل فیڈ",
+    "filters": "فِلٹَر",
+    "analytics": "تَجزِی"
+  },
+  "reportList": {
+    "title": "براہ راست خطرٕ رِپورٹ",
+    "searchPlaceholder": "جاہ، خطرٕ، کلیدی لفظ سٟتؠ ژھانڈِیو...",
+    "confidenceScore": "اِتماد سِکور",
+    "fullReport": "پورٕ رِپورٹ",
+    "by": "ذریعہ",
+    "verified": "تَصدیٖق شُدہ",
+    "verifyButton": "رِپورٹ تَصدیٖق کٔرِو",
+    "noReports": "موجودٕ معیارن سٟتؠ چھُ نہٕ کانٛہہ رِپورٹ مِلان۔"
+  },
+  "reportHistory": {
+    "title": "مےٚ رِپورٹ تَوٲریٖخ",
+    "pending": "تَصدیٖق باقی",
+    "noReports": "تُہہؠ چھُ نہٕ وۆنؠ کینٛہہ رِپورٹ جمع کٔرِتھ۔",
+    "close": "بَند"
+  },
+  "socialFeed": {
+    "title": "سوشل میڈیا رُجحانات",
+    "subtitle": "خطرن پؠٹھ عوٲمی بَحثٕچ نِگرٲنی۔"
+  },
+  "filterPanel": {
+    "title": "خطرٕ قٕسمٕ سٟتؠ فِلٹَر",
+    "clearAll": "تمام فِلٹَر ژھٲرِیو"
+  },
+  "hazards": {
+    "Tsunami": "سُونامی",
+    "StormSurge": "طوفٲنی لَہر",
+    "HighWaves": "بٔڈؠ لَہر",
+    "CoastalCurrents": "ساحِلی رو",
+    "SwellSurge": "زِیادٕ لَہر",
+    "CoastalFlooding": "ساحِلی سؠلاب",
+    "Other": "باقی"
+  },
+  "reportForm": {
+    "title": "نٔوؠ خطرٕ رِپورٹ جمع کٔرِو",
+    "hazardTypeLabel": "خطرٕ قٕسٕم",
+    "descriptionLabel": "تَفصیل",
+    "descriptionPlaceholder": "تُہہؠ کیا وُچھِو، تَفصیل دِیو...",
+    "photoLabel": "فوٹو اپلوڈ کٔرِو (اِختیاری)",
+    "locationLabel": "جاہ ژارِیو",
+    "coordinates": "کوارڈینیٹس",
+    "geocodedLocation": "جیوکوڈِڈ جاہ",
+    "fetchingLocation": "اَنَن...",
+    "locationError": "مہربٲنی کرِتھ نقشس پؠٹھ اَکھ جاہ ژارِیو۔",
+    "cancel": "منسوخ",
+    "submit": "رِپورٹ جمع کٔرِو"
+  },
+  "profileModal": {
+    "title": "صٲرِف پروفایل",
+    "usernameLabel": "صٲرِف ناو",
+    "roleLabel": "کردار",
+    "save": "تَبدیلۍ مَحفوٗظ کٔرِو"
+  },
+  "analyticsPanel": {
+    "title": "تَجزِی ڈیش بورڈ",
+    "subtitle": "موجودٕ واقعاتَن ہُنٛد اعلیٰ سطحُک جائزہ۔",
+    "totalReports": "کُل رِپورٹ",
+    "verifiedReports": "تَصدیٖق شُدہ رِپورٹ",
+    "reportsByType": "خطرٕ قٕسمٕ سٟتؠ رِپورٹ",
+    "socialSentiment": "سوشل میڈیا جذبات",
+    "positive": "مثبت",
+    "neutral": "غیر جانبدار",
+    "negative": "منفی"
+  },
+  "notifications": {
+    "loading": "INCOIS پلیٹ فارم لوڈ گَژھَن...",
+    "loadFail": "اِبتِدٲیی ڈیٹا لوڈ کرنس منٛز ناکٲمی۔",
+    "summaryFail": "AI خُلاصہٕ ہیکہٕ نہٕ بنیتھ۔",
+    "submitSuccess": "خطرٕ رِپورٹ کامیابی سٟتؠ جمع گۆو!",
+    "submitFail": "رِپورٹ جمع کرنس منٛز ناکٲمی۔",
+    "profileUpdateSuccess": "پروفایل کامیابی سٟتؠ اپڈیٹ گۆو!",
+    "profileUpdateFail": "پروفایل اپڈیਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "verifyPermissionFail": "ਤੁਹਾਨੂੰ ਰਿਪੋਰਟਾਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।",
+    "verifySuccess": "ਰਿਪੋਰਟ تَصدیٖق تہٕ اِتماد اپڈیٹ گۆو۔",
+    "verifyFail": "ਰਿਪੋਰਟ تَصدیٖق ਕਰਨ ਵਿੱਚ ਅਸਫਲ।"
+  },
+  "map": {
+    "legendTitle": "نِشان"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "header": {
+    "title": "महासागर धोको पळोवप",
+    "newReportButton": "नवो अहवाल",
+    "profile": "प्रोफायल",
+    "logout": "लॉगआउट",
+    "reportHistory": "म्हजे अहवाल"
+  },
+  "auth": {
+    "mainTitle": "INCOIS धोको पळोवप",
+    "subtitle": "नागरिक आनी प्राधिकरण सहकार्य मंच",
+    "createAccountTitle": "खातें तयार करात",
+    "loginTitle": "लॉगिन",
+    "usernameLabel": "वापरप्याचें नांव",
+    "usernamePlaceholder": "तुमचें नांव घालात",
+    "roleLabel": "भूमिका निवडात",
+    "registerButton": "नोंदणी करात",
+    "loginButton": "डॅशबोर्डाक लॉगिन करात",
+    "alreadyAccount": "पयलींच खातें आसा?",
+    "noAccount": "खातें ना?",
+    "errorExists": "वापरप्याचें नांव पयलींच आसा।",
+    "errorInvalid": "अवैध वापरप्याचें नांव वा भूमिका। तुमी नवे वापरपी आसल्यार नोंदणी करात।"
+  },
+  "roles": {
+    "Citizen": "नागरिक रिपोर्टर",
+    "Official": "सरकारी अधिकारी",
+    "Analyst": "INCOIS विश्लेशक"
+  },
+  "sidePanel": {
+    "reports": "अहवाल",
+    "socialFeed": "सोशल फीड",
+    "filters": "फिल्टर",
+    "analytics": "विश्लेशण"
+  },
+  "reportList": {
+    "title": "लायव्ह धोक्याचे अहवाल",
+    "searchPlaceholder": "सुवात, धोको, कीवर्डा प्रमाणें सोदात...",
+    "confidenceScore": "आत्मविश्वास गुण",
+    "fullReport": "पुराय अहवाल",
+    "by": "वरवीं",
+    "verified": "प्रमाणीत",
+    "verifyButton": "अहवाल प्रमाणीत करात",
+    "noReports": "सद्याच्या निकशांक जुळपी अहवाल नात।"
+  },
+  "reportHistory": {
+    "title": "म्हजो अहवाल इतिहास",
+    "pending": "प्रमाणीकरण बाकी आसा",
+    "noReports": "तुमी अजून एकही अहवाल धाडूंक ना।",
+    "close": "बंद करात"
+  },
+  "socialFeed": {
+    "title": "सोशल मिडिया ट्रेंड",
+    "subtitle": "धोक्यांचेर भौशीक चर्चा पळोवप।"
+  },
+  "filterPanel": {
+    "title": "धोक्याच्या प्रकारा प्रमाणें फिल्टर करात",
+    "clearAll": "सगळे फिल्टर काडात"
+  },
+  "hazards": {
+    "Tsunami": "सुनामी",
+    "StormSurge": "वादळाची ल्हार",
+    "HighWaves": "उंच ल्हारो",
+    "CoastalCurrents": "दर्यादेगेचे प्रवाह",
+    "SwellSurge": "ल्हार वाडप",
+    "CoastalFlooding": "दर्यादेगेचो हुंवार",
+    "Other": "हे र"
+  },
+  "reportForm": {
+    "title": "नवो धोक्याचो अहवाल धाडात",
+    "hazardTypeLabel": "धोक्याचो प्रकार",
+    "descriptionLabel": "विवरण",
+    "descriptionPlaceholder": "तुमकां कितें दिसता तें वर्णन करात...",
+    "photoLabel": "फोटो अपलोड करात (पर्यायी)",
+    "locationLabel": "सुवात निवडात",
+    "coordinates": "निर्देशांक",
+    "geocodedLocation": "जिओकोड केल्ली सुवात",
+    "fetchingLocation": "हाडटा...",
+    "locationError": "कृपा करून नकाशांतल्यान एक सुवात निवडात।",
+    "cancel": "रद्द करात",
+    "submit": "अहवाल धाडात"
+  },
+  "profileModal": {
+    "title": "वापरप्याचें प्रोफायल",
+    "usernameLabel": "वापरप्याचें नांव",
+    "roleLabel": "भूमिका",
+    "save": "बदल सांबाळात"
+  },
+  "analyticsPanel": {
+    "title": "विश्लेशण डॅशबोर्ड",
+    "subtitle": "सद्याच्या घडणुकांचो उच्च-पातळेचो आढावो।",
+    "totalReports": "एकूण अहवाल",
+    "verifiedReports": "प्रमाणीत अहवाल",
+    "reportsByType": "धोक्याच्या प्रकारा प्रमाणें अहवाल",
+    "socialSentiment": "सोशल मिडिया भावना",
+    "positive": "सकारात्मक",
+    "neutral": "तटस्थ",
+    "negative": "नकारात्मक"
+  },
+  "notifications": {
+    "loading": "INCOIS मंच लोड जाता...",
+    "loadFail": "प्राथमिक डेटा लोड करपाक अपयश।",
+    "summaryFail": "AI सारांश तयार करूंक शकलो ना।",
+    "submitSuccess": "धोक्याचो अहवाल यशस्वीपणान धाडलो!",
+    "submitFail": "अहवाल धाडपाक अपयश।",
+    "profileUpdateSuccess": "प्रोफायल यशस्वीपणान अद्ययावत केलें!",
+    "profileUpdateFail": "प्रोफायल अद्ययावत करपाक अपयश।",
+    "verifyPermissionFail": "तुमकां अहवाल प्रमाणीत करपाची परवानगी ना।",
+    "verifySuccess": "अहवाल प्रमाणीत केलो आनी आत्मविश्वास अद्ययावत केलो।",
+    "verifyFail": "अहवाल प्रमाणीत करपाक अपयश।"
+  },
+  "map": {
+    "legendTitle": "आख्यायिका"
+  }
+}

@@ -1,0 +1,114 @@
+export default {
+  "header": {
+    "title": "महासागर धोका निरीक्षण",
+    "newReportButton": "नवीन अहवाल",
+    "profile": "प्रोफाइल",
+    "logout": "लॉगआउट",
+    "reportHistory": "माझे अहवाल"
+  },
+  "auth": {
+    "mainTitle": "INCOIS धोका निरीक्षण",
+    "subtitle": "नागरिक आणि प्राधिकरण सहकार्य मंच",
+    "createAccountTitle": "खाते तयार करा",
+    "loginTitle": "लॉगिन",
+    "usernameLabel": "वापरकर्तानाव",
+    "usernamePlaceholder": "तुमचे नाव प्रविष्ट करा",
+    "roleLabel": "भूमिका निवडा",
+    "registerButton": "नोंदणी करा",
+    "loginButton": "डॅशबोर्डवर लॉगिन करा",
+    "alreadyAccount": "आधीपासूनच खाते आहे?",
+    "noAccount": "खाते नाही?",
+    "errorExists": "वापरकर्तानाव आधीपासूनच अस्तित्वात आहे.",
+    "errorInvalid": "अवैध वापरकर्तानाव किंवा भूमिका. आपण नवीन वापरकर्ता असल्यास कृपया नोंदणी करा."
+  },
+  "roles": {
+    "Citizen": "नागरिक रिपोर्टर",
+    "Official": "सरकारी अधिकारी",
+    "Analyst": "INCOIS विश्लेषक"
+  },
+  "sidePanel": {
+    "reports": "अहवाल",
+    "socialFeed": "सोशल फीड",
+    "filters": "फिल्टर",
+    "analytics": "विश्लेषण"
+  },
+  "reportList": {
+    "title": "थेट धोका अहवाल",
+    "searchPlaceholder": "स्थान, धोका, कीवर्डद्वारे शोधा...",
+    "confidenceScore": "आत्मविश्वास गुण",
+    "fullReport": "संपूर्ण अहवाल",
+    "by": "द्वारे",
+    "verified": "सत्यापित",
+    "verifyButton": "अहवाल सत्यापित करा",
+    "noReports": "सध्याच्या निकषांशी जुळणारे कोणतेही अहवाल नाहीत."
+  },
+  "reportHistory": {
+    "title": "माझा अहवाल इतिहास",
+    "pending": "सत्यापन प्रलंबित",
+    "noReports": "तुम्ही अद्याप कोणताही अहवाल सादर केलेला नाही.",
+    "close": "बंद करा"
+  },
+  "socialFeed": {
+    "title": "सोशल मीडिया ट्रेंड",
+    "subtitle": "धोक्यांवरील सार्वजनिक चर्चांचे निरीक्षण करणे."
+  },
+  "filterPanel": {
+    "title": "धोक्याच्या प्रकारानुसार फिल्टर करा",
+    "clearAll": "सर्व फिल्टर साफ करा"
+  },
+  "hazards": {
+    "Tsunami": "त्सुनामी",
+    "StormSurge": "वादळाची लाट",
+    "HighWaves": "उंच लाटा",
+    "CoastalCurrents": "किनारपट्टीचे प्रवाह",
+    "SwellSurge": "लाटेची सूज",
+    "CoastalFlooding": "किनारपट्टीचा पूर",
+    "Other": "इतर"
+  },
+  "reportForm": {
+    "title": "नवीन धोका अहवाल सादर करा",
+    "hazardTypeLabel": "धोक्याचा प्रकार",
+    "descriptionLabel": "वर्णन",
+    "descriptionPlaceholder": "तुम्ही काय पाहत आहात त्याचे वर्णन करा...",
+    "photoLabel": "फोटो अपलोड करा (ऐच्छिक)",
+    "locationLabel": "स्थान निवडा",
+    "coordinates": "निर्देशांक",
+    "geocodedLocation": "जिओकोड केलेले स्थान",
+    "fetchingLocation": "आणत आहे...",
+    "locationError": "कृपया नकाशावर एक स्थान निवडा.",
+    "cancel": "रद्द करा",
+    "submit": "अहवाल सादर करा"
+  },
+  "profileModal": {
+    "title": "वापरकर्ता प्रोफाइल",
+    "usernameLabel": "वापरकर्तानाव",
+    "roleLabel": "भूमिका",
+    "save": "बदल जतन करा"
+  },
+  "analyticsPanel": {
+    "title": "विश्लेषण डॅशबोर्ड",
+    "subtitle": "सध्याच्या घटनांचा उच्च-स्तरीय आढावा.",
+    "totalReports": "एकूण अहवाल",
+    "verifiedReports": "सत्यापित अहवाल",
+    "reportsByType": "धोक्याच्या प्रकारानुसार अहवाल",
+    "socialSentiment": "सोशल मीडिया भावना",
+    "positive": "सकारात्मक",
+    "neutral": "तटस्थ",
+    "negative": "नकारात्मक"
+  },
+  "notifications": {
+    "loading": "INCOIS प्लॅटफॉर्म लोड होत आहे...",
+    "loadFail": "प्राथमिक डेटा लोड करण्यात अयशस्वी.",
+    "summaryFail": "AI सारांश तयार करता आला नाही.",
+    "submitSuccess": "धोका अहवाल यशस्वीरित्या सादर केला!",
+    "submitFail": "अहवाल सादर करण्यात अयशस्वी.",
+    "profileUpdateSuccess": "प्रोफाइल यशस्वीरित्या अद्यतनित केले!",
+    "profileUpdateFail": "प्रोफाइल अद्यतनित करण्यात अयशस्वी.",
+    "verifyPermissionFail": "तुमच्याकडे अहवाल सत्यापित करण्याची परवानगी नाही.",
+    "verifySuccess": "अहवाल सत्यापित आणि आत्मविश्वास अद्यतनित केला.",
+    "verifyFail": "अहवाल सत्यापित करण्यात अयशस्वी."
+  },
+  "map": {
+    "legendTitle": "आख्यायिका"
+  }
+}

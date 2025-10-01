@@ -1,0 +1,114 @@
+{
+  "header": {
+    "title": "মহাসাগর বিপদ সতর্কতা",
+    "newReportButton": "নতুন প্রতিবেদন",
+    "profile": "প্রোফাইল",
+    "logout": "লগআউট",
+    "reportHistory": "আমার প্রতিবেদন"
+  },
+  "auth": {
+    "mainTitle": "INCOIS বিপদ সতর্কতা",
+    "subtitle": "নাগরিক ও কর্তৃপক্ষের সহযোগিতা প্ল্যাটফর্ম",
+    "createAccountTitle": "অ্যাকাউন্ট তৈরি করুন",
+    "loginTitle": "লগইন",
+    "usernameLabel": "ব্যবহারকারীর নাম",
+    "usernamePlaceholder": "আপনার নাম লিখুন",
+    "roleLabel": "ভূমিকা নির্বাচন করুন",
+    "registerButton": "নিবন্ধন করুন",
+    "loginButton": "ড্যাশবোর্ডে লগইন করুন",
+    "alreadyAccount": "ইতিমধ্যে একটি অ্যাকাউন্ট আছে?",
+    "noAccount": "অ্যাকাউন্ট নেই?",
+    "errorExists": "ব্যবহারকারীর নাম ইতিমধ্যে বিদ্যমান।",
+    "errorInvalid": "অবৈধ ব্যবহারকারীর নাম বা ভূমিকা। আপনি নতুন ব্যবহারকারী হলে নিবন্ধন করুন।"
+  },
+  "roles": {
+    "Citizen": "নাগরিক প্রতিবেদক",
+    "Official": "সরকারী কর্মকর্তা",
+    "Analyst": "INCOIS বিশ্লেষক"
+  },
+  "sidePanel": {
+    "reports": "প্রতিবেদন",
+    "socialFeed": "সোশ্যাল ফিড",
+    "filters": "ফিল্টার",
+    "analytics": "বিশ্লেষণ"
+  },
+  "reportList": {
+    "title": "লাইভ বিপদ প্রতিবেদন",
+    "searchPlaceholder": "অবস্থান, বিপদ, কীওয়ার্ড দ্বারা অনুসন্ধান করুন...",
+    "confidenceScore": "আত্মবিশ্বাস স্কোর",
+    "fullReport": "সম্পূর্ণ প্রতিবেদন",
+    "by": "দ্বারা",
+    "verified": "যাচাইকৃত",
+    "verifyButton": "প্রতিবেদন যাচাই করুন",
+    "noReports": "বর্তমান মানদণ্ডের সাথে কোন প্রতিবেদন মেলে না।"
+  },
+  "reportHistory": {
+    "title": "আমার প্রতিবেদন ইতিহাস",
+    "pending": "যাচাইয়ের জন্য অপেক্ষারত",
+    "noReports": "আপনি এখনও কোন প্রতিবেদন জমা দেননি।",
+    "close": "বন্ধ করুন"
+  },
+  "socialFeed": {
+    "title": "সোশ্যাল মিডিয়া ট্রেন্ডস",
+    "subtitle": "বিপদের উপর জনসাধারণের আলোচনা পর্যবেক্ষণ করা।"
+  },
+  "filterPanel": {
+    "title": "বিপদের ধরন অনুযায়ী ফিল্টার করুন",
+    "clearAll": "সমস্ত ফিল্টার পরিষ্কার করুন"
+  },
+  "hazards": {
+    "Tsunami": "সুনামি",
+    "StormSurge": "ঝড়ের জলোচ্ছ্বাস",
+    "HighWaves": "উচ্চ তরঙ্গ",
+    "CoastalCurrents": "উপকূলীয় স্রোত",
+    "SwellSurge": "স্ফীত জলোচ্ছ্বাস",
+    "CoastalFlooding": "উপকূলীয় বন্যা",
+    "Other": "অন্যান্য"
+  },
+  "reportForm": {
+    "title": "নতুন বিপদ প্রতিবেদন জমা দিন",
+    "hazardTypeLabel": "বিপদের ধরন",
+    "descriptionLabel": "বর্ণনা",
+    "descriptionPlaceholder": "আপনি যা পর্যবেক্ষণ করছেন তা বর্ণনা করুন...",
+    "photoLabel": "ছবি আপলোড করুন (ঐচ্ছিক)",
+    "locationLabel": "অবস্থান নির্বাচন করুন",
+    "coordinates": "স্থানাঙ্ক",
+    "geocodedLocation": "জিওকোডেড অবস্থান",
+    "fetchingLocation": "আনছে...",
+    "locationError": "দয়া করে মানচিত্রে একটি অবস্থান নির্বাচন করুন।",
+    "cancel": "বাতিল",
+    "submit": "প্রতিবেদন জমা দিন"
+  },
+  "profileModal": {
+    "title": "ব্যবহারকারী প্রোফাইল",
+    "usernameLabel": "ব্যবহারকারীর নাম",
+    "roleLabel": "ভূমিকা",
+    "save": "পরিবর্তনগুলি সংরক্ষণ করুন"
+  },
+  "analyticsPanel": {
+    "title": "বিশ্লেষণ ড্যাশবোর্ড",
+    "subtitle": "বর্তমান ঘটনাগুলির উচ্চ-স্তরের সংক্ষিপ্ত বিবরণ।",
+    "totalReports": "মোট প্রতিবেদন",
+    "verifiedReports": "যাচাইকৃত প্রতিবেদন",
+    "reportsByType": "বিপদের ধরন অনুযায়ী প্রতিবেদন",
+    "socialSentiment": "সোশ্যাল মিডিয়া সেন্টিমেন্ট",
+    "positive": "ইতিবাচক",
+    "neutral": "নিরপেক্ষ",
+    "negative": "নেতিবাচক"
+  },
+  "notifications": {
+    "loading": "INCOIS প্ল্যাটফর্ম লোড হচ্ছে...",
+    "loadFail": "প্রাথমিক ডেটা লোড করতে ব্যর্থ হয়েছে।",
+    "summaryFail": "AI সারাংশ তৈরি করা যায়নি।",
+    "submitSuccess": "বিপদ প্রতিবেদন সফলভাবে জমা দেওয়া হয়েছে!",
+    "submitFail": "প্রতিবেদন জমা দিতে ব্যর্থ হয়েছে।",
+    "profileUpdateSuccess": "প্রোফাইল সফলভাবে আপডেট করা হয়েছে!",
+    "profileUpdateFail": "প্রোফাইল আপডেট করতে ব্যর্থ হয়েছে।",
+    "verifyPermissionFail": "আপনার প্রতিবেদন যাচাই করার অনুমতি নেই।",
+    "verifySuccess": "প্রতিবেদন যাচাইকৃত এবং আত্মবিশ্বাস আপডেট করা হয়েছে।",
+    "verifyFail": "প্রতিবেদন যাচাই করতে ব্যর্থ হয়েছে।"
+  },
+  "map": {
+    "legendTitle": "কিংবদন্তী"
+  }
+}

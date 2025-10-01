@@ -1,0 +1,114 @@
+export default {
+  "header": {
+    "title": "महासागर संकट निगरानी",
+    "newReportButton": "नई रिपोर्ट",
+    "profile": "प्रोफ़ाइल",
+    "logout": "लॉगआउट",
+    "reportHistory": "मेरी रिपोर्ट"
+  },
+  "auth": {
+    "mainTitle": "INCOIS संकट निगरानी",
+    "subtitle": "नागरिक और प्राधिकरण सहयोग मंच",
+    "createAccountTitle": "खाता बनाएं",
+    "loginTitle": "लॉगिन",
+    "usernameLabel": "उपयोगकर्ता नाम",
+    "usernamePlaceholder": "अपना नाम दर्ज करें",
+    "roleLabel": "भूमिका चुनें",
+    "registerButton": "पंजीकरण करें",
+    "loginButton": "tableau में लॉगिन करें",
+    "alreadyAccount": "पहले से ही एक खाता है?",
+    "noAccount": "खाता नहीं है?",
+    "errorExists": "उपयोगकर्ता नाम पहले से मौजूद है।",
+    "errorInvalid": "अमान्य उपयोगकर्ता नाम या भूमिका। यदि आप नए उपयोगकर्ता हैं तो कृपया पंजीकरण करें।"
+  },
+  "roles": {
+    "Citizen": "नागरिक रिपोर्टर",
+    "Official": "सरकारी अधिकारी",
+    "Analyst": "INCOIS विश्लेषक"
+  },
+  "sidePanel": {
+    "reports": "रिपोर्ट",
+    "socialFeed": "सोशल फ़ीड",
+    "filters": "फ़िल्टर",
+    "analytics": "विश्लेषिकी"
+  },
+  "reportList": {
+    "title": "लाइव संकट रिपोर्ट",
+    "searchPlaceholder": "स्थान, संकट, कीवर्ड द्वारा खोजें...",
+    "confidenceScore": "आत्मविश्वास स्कोर",
+    "fullReport": "पूरी रिपोर्ट",
+    "by": "द्वारा",
+    "verified": "सत्यापित",
+    "verifyButton": "रिपोर्ट सत्यापित करें",
+    "noReports": "वर्तमान मानदंडों से कोई रिपोर्ट मेल नहीं खाती।"
+  },
+  "reportHistory": {
+    "title": "मेरा रिपोर्ट इतिहास",
+    "pending": "सत्यापन लंबित है",
+    "noReports": "आपने अभी तक कोई रिपोर्ट सबमिट नहीं की है।",
+    "close": "बंद करें"
+  },
+  "socialFeed": {
+    "title": "सोशल मीडिया रुझान",
+    "subtitle": "संकटों पर सार्वजनिक चर्चाओं की निगरानी करना।"
+  },
+  "filterPanel": {
+    "title": "संकट के प्रकार के अनुसार फ़िल्टर करें",
+    "clearAll": "सभी फ़िल्टर साफ़ करें"
+  },
+  "hazards": {
+    "Tsunami": "सुनामी",
+    "StormSurge": "तूफ़ानी लहर",
+    "HighWaves": "ऊँची लहरें",
+    "CoastalCurrents": "तटीय धाराएँ",
+    "SwellSurge": "उफान",
+    "CoastalFlooding": "तटीय बाढ़",
+    "Other": "अन्य"
+  },
+  "reportForm": {
+    "title": "नई संकट रिपोर्ट सबमिट करें",
+    "hazardTypeLabel": "संकट का प्रकार",
+    "descriptionLabel": "विवरण",
+    "descriptionPlaceholder": "आप जो देख रहे हैं उसका वर्णन करें...",
+    "photoLabel": "फोटो अपलोड करें (वैकल्पिक)",
+    "locationLabel": "स्थान चुनें",
+    "coordinates": "निर्देशांक",
+    "geocodedLocation": "जियोकोडेड स्थान",
+    "fetchingLocation": "ला रहा है...",
+    "locationError": "कृपया मानचित्र पर एक स्थान चुनें।",
+    "cancel": "रद्द करें",
+    "submit": "रिपोर्ट सबमिट करें"
+  },
+  "profileModal": {
+    "title": "उपयोगकर्ता प्रोफ़ाइल",
+    "usernameLabel": "उपयोगकर्ता नाम",
+    "roleLabel": "भूमिका",
+    "save": "परिवर्तन सहेजें"
+  },
+  "analyticsPanel": {
+    "title": "विश्लेषिकी tableau",
+    "subtitle": "वर्तमान घटनाओं का उच्च-स्तरीय अवलोकन।",
+    "totalReports": "कुल रिपोर्ट",
+    "verifiedReports": "सत्यापित रिपोर्ट",
+    "reportsByType": "संकट के प्रकार के अनुसार रिपोर्ट",
+    "socialSentiment": "सोशल मीडिया भावना",
+    "positive": "सकारात्मक",
+    "neutral": "तटस्थ",
+    "negative": "नकारात्मक"
+  },
+  "notifications": {
+    "loading": "INCOIS प्लेटफ़ॉर्म लोड हो रहा है...",
+    "loadFail": "प्रारंभिक डेटा लोड करने में विफल।",
+    "summaryFail": "AI सारांश उत्पन्न नहीं किया जा सका।",
+    "submitSuccess": "संकट रिपोर्ट सफलतापूर्वक सबमिट की गई!",
+    "submitFail": "रिपोर्ट सबमिट करने में विफल।",
+    "profileUpdateSuccess": "प्रोफ़ाइल सफलतापूर्वक अपडेट की गई!",
+    "profileUpdateFail": "प्रोफ़ाइल अपडेट करने में विफल।",
+    "verifyPermissionFail": "आपके पास रिपोर्ट सत्यापित करने की अनुमति नहीं है।",
+    "verifySuccess": "रिपोर्ट सत्यापित और आत्मविश्वास अपडेट किया गया।",
+    "verifyFail": "रिपोर्ट सत्यापित करने में विफल।"
+  },
+  "map": {
+    "legendTitle": "किंवदंती"
+  }
+}

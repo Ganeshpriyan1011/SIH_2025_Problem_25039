@@ -1,0 +1,114 @@
+export default {
+  "header": {
+    "title": "ಸಾಗರ ಅಪಾಯ ವೀಕ್ಷಣೆ",
+    "newReportButton": "ಹೊಸ ವರದಿ",
+    "profile": "ಪ್ರೊಫೈಲ್",
+    "logout": "ಲಾಗ್‌ಔಟ್",
+    "reportHistory": "ನನ್ನ ವರದಿಗಳು"
+  },
+  "auth": {
+    "mainTitle": "INCOIS ಅಪಾಯ ವೀಕ್ಷಣೆ",
+    "subtitle": "ನಾಗರಿಕ ಮತ್ತು ಪ್ರಾಧಿಕಾರ ಸಹಯೋಗ ವೇದಿಕೆ",
+    "createAccountTitle": "ಖಾತೆ ರಚಿಸಿ",
+    "loginTitle": "ಲಾಗಿನ್",
+    "usernameLabel": "ಬಳಕೆದಾರಹೆಸರು",
+    "usernamePlaceholder": "ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+    "roleLabel": "ಪಾತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "registerButton": "ನೋಂದಾಯಿಸಿ",
+    "loginButton": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಲಾಗಿನ್ ಮಾಡಿ",
+    "alreadyAccount": "ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ?",
+    "noAccount": "ಖಾತೆ ಇಲ್ಲವೇ?",
+    "errorExists": "ಬಳಕೆದಾರಹೆಸರು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.",
+    "errorInvalid": "ಅಮಾನ್ಯ ಬಳಕೆದಾರಹೆಸರು ಅಥವಾ ಪಾತ್ರ. ನೀವು ಹೊಸ ಬಳಕೆದಾರರಾಗಿದ್ದರೆ ದಯವಿಟ್ಟು ನೋಂದಾಯಿಸಿ."
+  },
+  "roles": {
+    "Citizen": "ನಾಗರಿಕ ವರದಿಗಾರ",
+    "Official": "ಸರ್ಕಾರಿ ಅಧಿಕಾರಿ",
+    "Analyst": "INCOIS ವಿಶ್ಲೇಷಕ"
+  },
+  "sidePanel": {
+    "reports": "ವರದಿಗಳು",
+    "socialFeed": "ಸಾಮಾಜಿಕ ಫೀಡ್",
+    "filters": "ಫಿಲ್ಟರ್‌ಗಳು",
+    "analytics": "ವಿಶ್ಲೇಷಣೆ"
+  },
+  "reportList": {
+    "title": "ಲೈವ್ ಅಪಾಯ ವರದಿಗಳು",
+    "searchPlaceholder": "ಸ್ಥಳ, ಅಪಾಯ, ಕೀವರ್ಡ್ ಮೂಲಕ ಹುಡುಕಿ...",
+    "confidenceScore": "ವಿಶ್ವಾಸಾರ್ಹತೆಯ ಅಂಕ",
+    "fullReport": "ಪೂರ್ಣ ವರದಿ",
+    "by": "ಇವರಿಂದ",
+    "verified": "ಪರಿಶೀಲಿಸಲಾಗಿದೆ",
+    "verifyButton": "ವರದಿಯನ್ನು ಪರಿಶೀಲಿಸಿ",
+    "noReports": "ಪ್ರಸ್ತುತ ಮಾನದಂಡಗಳಿಗೆ ಯಾವುದೇ ವರದಿಗಳು ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ."
+  },
+  "reportHistory": {
+    "title": "ನನ್ನ ವರದಿ ಇತಿಹಾಸ",
+    "pending": "ಪರಿಶೀಲನೆ ಬಾಕಿ ಇದೆ",
+    "noReports": "ನೀವು ಇನ್ನೂ ಯಾವುದೇ ವರದಿಗಳನ್ನು ಸಲ್ಲಿಸಿಲ್ಲ.",
+    "close": "ಮುಚ್ಚಿ"
+  },
+  "socialFeed": {
+    "title": "ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮ ಟ್ರೆಂಡ್‌ಗಳು",
+    "subtitle": "ಅಪಾಯಗಳ ಕುರಿತು ಸಾರ್ವಜನಿಕ ಚರ್ಚೆಗಳನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುವುದು."
+  },
+  "filterPanel": {
+    "title": "ಅಪಾಯದ ಪ್ರಕಾರದಿಂದ ಫಿಲ್ಟರ್ ಮಾಡಿ",
+    "clearAll": "ಎಲ್ಲಾ ಫಿಲ್ಟರ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ"
+  },
+  "hazards": {
+    "Tsunami": "ಸುನಾಮಿ",
+    "StormSurge": "ಚಂಡಮಾರುತದ ಉಬ್ಬರ",
+    "HighWaves": "ಎತ್ತರದ ಅಲೆಗಳು",
+    "CoastalCurrents": "ಕರಾವಳಿ ಪ್ರವಾಹಗಳು",
+    "SwellSurge": "ಊತದ ಉಬ್ಬರ",
+    "CoastalFlooding": "ಕರಾವಳಿ ಪ್ರವಾಹ",
+    "Other": "ಇತರೆ"
+  },
+  "reportForm": {
+    "title": "ಹೊಸ ಅಪಾಯ ವರದಿಯನ್ನು ಸಲ್ಲಿಸಿ",
+    "hazardTypeLabel": "ಅಪಾಯದ ಪ್ರಕಾರ",
+    "descriptionLabel": "ವಿವರಣೆ",
+    "descriptionPlaceholder": "ನೀವು ಏನು ಗಮನಿಸುತ್ತಿದ್ದೀರಿ ಎಂಬುದನ್ನು ವಿವರಿಸಿ...",
+    "photoLabel": "ಫೋಟೋ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ (ಐಚ್ಛಿಕ)",
+    "locationLabel": "ಸ್ಥಳವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "coordinates": "ನಿರ್ದೇಶಾಂಕಗಳು",
+    "geocodedLocation": "ಜಿಯೋಕೋಡ್ ಮಾಡಿದ ಸ್ಥಳ",
+    "fetchingLocation": "ತರುತ್ತಿದೆ...",
+    "locationError": "ದಯವಿಟ್ಟು ನಕ್ಷೆಯಲ್ಲಿ ಒಂದು ಸ್ಥಳವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "cancel": "ರದ್ದುಮಾಡಿ",
+    "submit": "ವರದಿಯನ್ನು ಸಲ್ಲಿಸಿ"
+  },
+  "profileModal": {
+    "title": "ಬಳಕೆದಾರರ ಪ್ರೊಫೈಲ್",
+    "usernameLabel": "ಬಳಕೆದಾರಹೆಸರು",
+    "roleLabel": "ಪಾತ್ರ",
+    "save": "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ"
+  },
+  "analyticsPanel": {
+    "title": "ವಿಶ್ಲೇಷಣೆ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "subtitle": "ಪ್ರಸ್ತುತ ಘಟನೆಗಳ ಉನ್ನತ ಮಟ್ಟದ ಅವಲೋಕನ.",
+    "totalReports": "ಒಟ್ಟು ವರದಿಗಳು",
+    "verifiedReports": "ಪರಿಶೀಲಿಸಿದ ವರದಿಗಳು",
+    "reportsByType": "ಅಪಾಯದ ಪ್ರಕಾರದಿಂದ ವರದಿಗಳು",
+    "socialSentiment": "ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮ ಭಾವನೆ",
+    "positive": "ಸಕಾರಾತ್ಮಕ",
+    "neutral": "ತಟಸ್ಥ",
+    "negative": "ನಕಾರಾತ್ಮಕ"
+  },
+  "notifications": {
+    "loading": "INCOIS ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "loadFail": "ಆರಂಭಿಕ ಡೇಟಾವನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ.",
+    "summaryFail": "AI ಸಾರಾಂಶವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.",
+    "submitSuccess": "ಅಪಾಯ ವರದಿಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ!",
+    "submitFail": "ವರದಿಯನ್ನು ಸಲ್ಲಿಸಲು ವಿಫಲವಾಗಿದೆ.",
+    "profileUpdateSuccess": "ಪ್ರೊಫೈಲ್ ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ!",
+    "profileUpdateFail": "ಪ್ರೊಫೈಲ್ ನವೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ.",
+    "verifyPermissionFail": "ವರದಿಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ.",
+    "verifySuccess": "ವರದಿ ಪರಿಶೀಲಿಸಲಾಗಿದೆ ಮತ್ತು ವಿಶ್ವಾಸಾರ್ಹತೆ ನವೀಕರಿಸಲಾಗಿದೆ.",
+    "verifyFail": "ವರದಿಯನ್ನು ಪರಿಶೀಲಿಸಲು ವಿಫಲವಾಗಿದೆ."
+  },
+  "map": {
+    "legendTitle": "ದಂತಕಥೆ"
+  }
+}

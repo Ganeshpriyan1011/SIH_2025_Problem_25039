@@ -1,0 +1,114 @@
+{
+  "header": {
+    "title": "সমুদ্রগী অমাং-অতা খঙবা",
+    "newReportButton": "অনৌবা রির্পোত",
+    "profile": "প্রোফাইল",
+    "logout": "লগআউট",
+    "reportHistory": "ঐগী রির্পোত"
+  },
+  "auth": {
+    "mainTitle": "INCOIS অমাং-অতা খঙবা",
+    "subtitle": "নাগরিক অমসুং কর্তৃপক্ষকী মতেং পাংনবা প্ল্যাটফর্ম",
+    "createAccountTitle": "একাউন্ট শেমজিনবা",
+    "loginTitle": "লগইন",
+    "usernameLabel": "য়ুজারনেম",
+    "usernamePlaceholder": "নহাক্কী মিং ইয়ানবিয়ু",
+    "roleLabel": "রোম খনবিয়ু",
+    "registerButton": "রেজিস্টার",
+    "loginButton": "ড্যাশবোর্ডতা লগইন",
+    "alreadyAccount": "একাউন্ট লৈরবব্রা?",
+    "noAccount": "একাউন্ট লৈত্রবরা?",
+    "errorExists": "য়ুজারনেম অসি লৈখ্রে।",
+    "errorInvalid": "য়ুজারনেম নত্রগা রোম চুমদে। নহাক অনৌবা য়ুজার ওইরবদি রেজিস্টার তৌবিয়ু।"
+  },
+  "roles": {
+    "Citizen": "নাগরিক রিপোর্টার",
+    "Official": "সরকারী কর্মচারী",
+    "Analyst": "INCOIS বিশ্লেষক"
+  },
+  "sidePanel": {
+    "reports": "রির্পোত",
+    "socialFeed": "সোশ্যাল ফিড",
+    "filters": "ফিল্টার",
+    "analytics": "এনালাইটিক্স"
+  },
+  "reportList": {
+    "title": "লাইভ অমাং-অতা রির্পোত",
+    "searchPlaceholder": "মফম, অমাং-অতা, কীୱার্দ থিবা...",
+    "confidenceScore": "বিশ্বাসকী স্কোর",
+    "fullReport": "পুবা রির্পোত",
+    "by": "…না",
+    "verified": "খঙজিনখ্রবা",
+    "verifyButton": "রির্পোত খঙজিনবা",
+    "noReports": "হৌজিক্কী মওং মতৌদা রির্পোত ফংদে।"
+  },
+  "reportHistory": {
+    "title": "ঐগী রির্পোতকী পুৱারী",
+    "pending": "খঙজিননবা ঙাইরি",
+    "noReports": "নহাক্না হৌজিক ফাওবদা রির্পোত থাজিনখিদ্রি।",
+    "close": "থিংজিনবা"
+  },
+  "socialFeed": {
+    "title": "সোশ্যাল মিডিয়া ট্রেন্ড",
+    "subtitle": "অমাং-অতাগী মরমদা মীয়ামগী ৱাখল্লোন খঙবা।"
+  },
+  "filterPanel": {
+    "title": "অমাং-অতানা ফিল্টার তৌবা",
+    "clearAll": "ফিল্টার পুম্নমক লৌথোকপা"
+  },
+  "hazards": {
+    "Tsunami": "সুনামি",
+    "StormSurge": "নোংজু নুংশিৎকী ঈশিং",
+    "HighWaves": "অৱাংবা ঈশিং চিং",
+    "CoastalCurrents": "তোর্বানগী ঈশিং",
+    "SwellSurge": "ঈশিং চিং",
+    "CoastalFlooding": "তোর্বানগী ঈচাও",
+    "Other": "অতোপ্পা"
+  },
+  "reportForm": {
+    "title": "অনৌবা অমাং-অতা রির্পোত থাজিনবা",
+    "hazardTypeLabel": "অমাং-অতাগী মখল",
+    "descriptionLabel": "মরম",
+    "descriptionPlaceholder": "নহাক্না উরিবা অদু ইবিয়ু...",
+    "photoLabel": "ফটো আপলোড (অপশনাল)",
+    "locationLabel": "মফম খনবিয়ু",
+    "coordinates": "কোর্ডিনেটস",
+    "geocodedLocation": "জিওকোডেড মফম",
+    "fetchingLocation": "লৌরি...",
+    "locationError": "ম্যাপতগী মফম অমম খনবিয়ু।",
+    "cancel": "কেন্সেল",
+    "submit": "রির্পোত থাজিনবা"
+  },
+  "profileModal": {
+    "title": "য়ুজার প্রোফাইল",
+    "usernameLabel": "য়ুজারনেম",
+    "roleLabel": "রোম",
+    "save": "অহোংবা সেভ তৌবা"
+  },
+  "analyticsPanel": {
+    "title": "এনালাইটিক্স ড্যাশবোর্ড",
+    "subtitle": "হৌজিক্কী থৌদোকশিংগী অৱাংবা থাক্কী মমি।",
+    "totalReports": "পুন্না রির্পোত",
+    "verifiedReports": "খঙজিনখ্রবা রির্পোত",
+    "reportsByType": "অমাং-অতাগী মতুং ইন্না রির্পোত",
+    "socialSentiment": "সোশ্যাল মিডিয়া সেন্টিমেন্ট",
+    "positive": "পজিটিভ",
+    "neutral": "নুট্রেল",
+    "negative": "নেগেটিভ"
+  },
+  "notifications": {
+    "loading": "INCOIS প্ল্যাটফর্ম লোড তৌরি...",
+    "loadFail": "অহানবা ডেটা লোড তৌবা ঙমদ্রে।",
+    "summaryFail": "AI সমারি শেমজিনবা ঙমদ্রে।",
+    "submitSuccess": "অমাং-অতা রির্পোত মায় পাক্না থাজিনখ্রে!",
+    "submitFail": "রির্পোত থাজিনবা ঙমদ্রে।",
+    "profileUpdateSuccess": "প্রোফাইল মায় পাক্না আপডেট তৌখ্রে!",
+    "profileUpdateFail": "প্রোফাইল আপডেট তৌবা ঙমদ্রে।",
+    "verifyPermissionFail": "নহাক রির্পোত খঙজিনবগী অথিংবা লৈ।",
+    "verifySuccess": "রির্পোত খঙজিনখ্রে অমসুং বিশ্বাস আপডেট তৌখ্রে।",
+    "verifyFail": "রির্পোত খঙজিনবা ঙমদ্রে।"
+  },
+  "map": {
+    "legendTitle": "লেজেন্ড"
+  }
+}

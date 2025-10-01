@@ -1,0 +1,114 @@
+export default {
+  "header": {
+    "title": "సముద్ర ప్రమాదాల పర్యవేక్షణ",
+    "newReportButton": "కొత్త నివేదిక",
+    "profile": "ప్రొఫైల్",
+    "logout": "లాగ్అవుట్",
+    "reportHistory": "నా నివేదికలు"
+  },
+  "auth": {
+    "mainTitle": "INCOIS ప్రమాదాల పర్యవేక్షణ",
+    "subtitle": "పౌరులు మరియు అధికార సహకార వేదిక",
+    "createAccountTitle": "ఖాతాను సృష్టించండి",
+    "loginTitle": "లాగిన్",
+    "usernameLabel": "వాడుకరి పేరు",
+    "usernamePlaceholder": "మీ పేరును నమోదు చేయండి",
+    "roleLabel": "పాత్రను ఎంచుకోండి",
+    "registerButton": "నమోదు చేసుకోండి",
+    "loginButton": "డాష్‌బోర్డ్‌కు లాగిన్ చేయండి",
+    "alreadyAccount": "ఇప్పటికే ఖాతా ఉందా?",
+    "noAccount": "ఖాతా లేదా?",
+    "errorExists": "వాడుకరి పేరు ఇప్పటికే ఉంది.",
+    "errorInvalid": "చెల్లని వాడుకరి పేరు లేదా పాత్ర. మీరు కొత్త వాడుకరి అయితే దయచేసి నమోదు చేసుకోండి."
+  },
+  "roles": {
+    "Citizen": "పౌర రిపోర్టర్",
+    "Official": "ప్రభుత్వ అధికారి",
+    "Analyst": "INCOIS విశ్లేషకుడు"
+  },
+  "sidePanel": {
+    "reports": "నివేదికలు",
+    "socialFeed": "సామాజిక ఫీడ్",
+    "filters": "ఫిల్టర్లు",
+    "analytics": "విశ్లేషణలు"
+  },
+  "reportList": {
+    "title": "ప్రత్యక్ష ప్రమాద నివేదికలు",
+    "searchPlaceholder": "స్థానం, ప్రమాదం, కీవర్డ్ ద్వారా శోధించండి...",
+    "confidenceScore": "విశ్వాస స్కోరు",
+    "fullReport": "పూర్తి నివేదిక",
+    "by": "ద్వారా",
+    "verified": "ధృవీకరించబడింది",
+    "verifyButton": "నివేదికను ధృవీకరించండి",
+    "noReports": "ప్రస్తుత ప్రమాణాలకు సరిపోయే నివేదికలు లేవు."
+  },
+  "reportHistory": {
+    "title": "నా నివేదిక చరిత్ర",
+    "pending": "ధృవీకరణ పెండింగ్‌లో ఉంది",
+    "noReports": "మీరు ఇంకా ఏ నివేదికను సమర్పించలేదు.",
+    "close": "మూసివేయండి"
+  },
+  "socialFeed": {
+    "title": "సామాజిక మాధ్యమ ట్రెండ్‌లు",
+    "subtitle": "ప్రమాదాలపై ప్రజా చర్చలను పర్యవేక్షించడం."
+  },
+  "filterPanel": {
+    "title": "ప్రమాద రకం ద్వారా ఫిల్టర్ చేయండి",
+    "clearAll": "అన్ని ఫిల్టర్లను తీసివేయండి"
+  },
+  "hazards": {
+    "Tsunami": "సునామీ",
+    "StormSurge": "తుఫాను ఉప్పెన",
+    "HighWaves": "ఎత్తైన అలలు",
+    "CoastalCurrents": "తీరప్రాంత ప్రవాహాలు",
+    "SwellSurge": "ఉప్పొంగు ఉప్పెన",
+    "CoastalFlooding": "తీరప్రాంత వరదలు",
+    "Other": "ఇతర"
+  },
+  "reportForm": {
+    "title": "కొత్త ప్రమాద నివేదికను సమర్పించండి",
+    "hazardTypeLabel": "ప్రమాద రకం",
+    "descriptionLabel": "వివరణ",
+    "descriptionPlaceholder": "మీరు ఏమి గమనిస్తున్నారో వివరించండి...",
+    "photoLabel": "ఫోటోను అప్‌లోడ్ చేయండి (ఐచ్ఛికం)",
+    "locationLabel": "స్థానాన్ని ఎంచుకోండి",
+    "coordinates": "నిర్దేశాంకాలు",
+    "geocodedLocation": "జియోకోడ్ చేయబడిన స్థానం",
+    "fetchingLocation": "తీసుకువస్తోంది...",
+    "locationError": "దయచేసి మ్యాప్‌లో ఒక స్థానాన్ని ఎంచుకోండి.",
+    "cancel": "రద్దు చేయండి",
+    "submit": "నివేదికను సమర్పించండి"
+  },
+  "profileModal": {
+    "title": "వాడుకరి ప్రొఫైల్",
+    "usernameLabel": "వాడుకరి పేరు",
+    "roleLabel": "పాత్ర",
+    "save": "మార్పులను సేవ్ చేయండి"
+  },
+  "analyticsPanel": {
+    "title": "విశ్లేషణల డాష్‌బోర్డ్",
+    "subtitle": "ప్రస్తుత సంఘటనల ఉన్నత-స్థాయి అవలోకనం.",
+    "totalReports": "మొత్తం నివేదికలు",
+    "verifiedReports": "ధృవీకరించబడిన నివేదికలు",
+    "reportsByType": "ప్రమాద రకం వారీగా నివేదికలు",
+    "socialSentiment": "సామాజిక మాధ్యమ సెంటిమెంట్",
+    "positive": "సానుకూలం",
+    "neutral": "తటస్థం",
+    "negative": "ప్రతికూలం"
+  },
+  "notifications": {
+    "loading": "INCOIS ప్లాట్‌ఫారమ్ లోడ్ అవుతోంది...",
+    "loadFail": "ప్రారంభ డేటాను లోడ్ చేయడంలో విఫలమైంది.",
+    "summaryFail": "AI సారాంశాన్ని రూపొందించలేకపోయింది.",
+    "submitSuccess": "ప్రమాద నివేదిక విజయవంతంగా సమర్పించబడింది!",
+    "submitFail": "నివేదికను సమర్పించడంలో విఫలమైంది.",
+    "profileUpdateSuccess": "ప్రొఫైల్ విజయవంతంగా నవీకరించబడింది!",
+    "profileUpdateFail": "ప్రొఫైల్ నవీకరించడంలో విఫలమైంది.",
+    "verifyPermissionFail": "నివేదికలను ధృవీకరించడానికి మీకు అనుమతి లేదు.",
+    "verifySuccess": "నివేదిక ధృవీకరించబడింది మరియు విశ్వాసం నవీకరించబడింది.",
+    "verifyFail": "నివేదికను ధృవీకరించడంలో విఫలమైంది."
+  },
+  "map": {
+    "legendTitle": "సూచిక"
+  }
+}
