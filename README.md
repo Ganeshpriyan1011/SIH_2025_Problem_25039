@@ -854,7 +854,7 @@ Made with 💙 by **Team Kingpins** for coastal communities worldwide
 </td>
 <td align="center" width="16.66%">
 <img src="https://github.com/ssteve13.png" width="100" style="border-radius:50%"/><br/>
-<b>Maria Steve</b><br/>
+<b>Maria Steve S</b><br/>
 <sub>Data Analyst</sub><br/>
 <a href="https://github.com/ssteve13">@ssteve13</a><br/>
 📊 Analytics
