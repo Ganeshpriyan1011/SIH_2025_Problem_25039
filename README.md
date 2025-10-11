@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=COASTAL%20GUARDIAN&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Integrated%20Platform%20for%20Crowdsourced%20Ocean%20Hazard%20Reporting%20and%20Social%20Media%20Analytics&descAlignY=55&descSize=20"/>
 
-[![SIH 2026](https://img.shields.io/badge/🏆_Smart_India_Hackathon-2026_Finalist-FF6B9D?style=for-the-badge&labelColor=C41E3A&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkw5LjE5IDguNjNMMiA5LjI0bDUuNDYgNC43M0w1LjgyIDIxTDEyIDE3LjI3TDE4LjE4IDIxbC0xLjYzLTcuMDNMMjIgOS4yNGwtNy4xOS0uNjFMMTIgMnoiIGZpbGw9IndoaXRlIi8+PC9zdmc+)](https://github.com/Ganeshpriyan1011/SIH_2026_Problem_25039)
+[![SIH 2026](https://img.shields.io/badge/🏆_Smart_India_Hackathon-2025_Finalist-FF6B9D?style=for-the-badge&labelColor=C41E3A&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkw5LjE5IDguNjNMMiA5LjI0bDUuNDYgNC43M0w1LjgyIDIxTDEyIDE3LjI3TDE4LjE4IDIxbC0xLjYzLTcuMDNMMjIgOS4yNGwtNy4xOS0uNjFMMTIgMnoiIGZpbGw9IndoaXRlIi8+PC9zdmc+)](https://github.com/Ganeshpriyan1011/SIH_2026_Problem_25039)
 [![Problem Statement](https://img.shields.io/badge/Problem_ID-25039-00D9FF?style=for-the-badge&labelColor=0077BE&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAxOGMtNC40MSAwLTgtMy41OS04LThzMy41OS04IDgtOCA4IDMuNTkgOCA4LTMuNTkgOC04IDh6bTEtMTNoLTJ2Nmg2di0ySDEzVjd6IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==)](https://github.com/Ganeshpriyan1011/SIH_2026_Problem_25039)
 [![Team Kingpins](https://img.shields.io/badge/👑_Team-KINGPINS-FFD700?style=for-the-badge&labelColor=FF8C00&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS34IDIuOTktM1MxNy42NiA1IDE2IDVzLTMgMS4zNC0zIDMgMS4zNCAzIDMgM3ptLTggMGMxLjY2IDAgMi45OS0xLjM0IDIuOTktM1M5LjY2IDUgOCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCA5LjVjMi4zMyAwIDctMS4xNyA3LTMuNVYxNEg0djMuNWMwIDIuMzMgNC42NyAzLjUgNyAzLjV6bTggMGMyLjMzIDAgNy0xLjE3IDctMy41VjE0aC0xMS45N2MyLjI3IDEuNSA0Ljk3IDMuNSA0Ljk3IDMuNXoiIGZpbGw9IndoaXRlIi8+PC9zdmc+)](https://github.com/Ganeshpriyan1011/SIH_2026_Problem_25039)
 [![Status](https://img.shields.io/badge/Status-🚀_ACTIVE_DEVELOPMENT-00FF00?style=for-the-badge&labelColor=006400)](https://github.com/Ganeshpriyan1011/SIH_2026_Problem_25039)
@@ -46,7 +46,7 @@
 
 <div align="center">
 
-### 🏆 Smart India Hackathon 2026 | Problem Statement 25039
+### 🏆 Smart India Hackathon 2025 | Problem Statement 25039
 
 <table>
 <tr>
@@ -1116,7 +1116,7 @@ timeline
 <tr>
 <td align="center" width="25%">
 <img src="https://img.icons8.com/fluency/96/000000/trophy.png" width="70"/><br/>
-<h3>🥇 SIH 2026</h3>
+<h3>🥇 SIH 2025</h3>
 <b>Finalist</b><br/>
 Problem 25039
 </td>
