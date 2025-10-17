@@ -1,62 +1,65 @@
-name: Azure Static Web Apps CI/CD
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy Node.js app to Azure Web App - Loginmodule
 
 on:
   push:
     branches:
       - Ganeshpriyan_work
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-      - Ganeshpriyan_work
+  workflow_dispatch:
 
 jobs:
-  build_and_deploy_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+  build:
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true
-          lfs: false
+    permissions:
+      contents: read #This is required for actions/checkout
 
-      # 🧱 Step 1: Install dependencies and build your React app
-      - name: Install and Build Frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js version
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22.x'
+
+      - name: npm install, build, and test
         run: |
-          cd frontend
           npm install
-          npm run build
+          npm run build --if-present
+          npm run test --if-present
 
-      # 🚀 Step 2: Deploy the built files to Azure Static Web Apps
-      - name: Build And Deploy
-        id: builddeploy
-        uses: Azure/static-web-apps-deploy@v1
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v4
         with:
-          # ⚠️ IMPORTANT: Replace this with your real deployment token secret name
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_BIRD_0378E3D2E }}
+          name: node-app
+          path: .
 
-          # GitHub token for PR comments and integration
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Deployment action
-          action: "upload"
-
-          ###### Repository/Build Configurations ######
-          app_location: "frontend"          # Location of your app source code
-          output_location: "frontend/build" # Location of your production-ready build
-          api_location: ""                  # Optional — leave blank for no API
-          ###### End of Repository/Build Configurations ######
-
-  # 🧹 Step 3: Close the PR environment after PR merge/close
-  close_pull_request_job:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+  deploy:
     runs-on: ubuntu-latest
-    name: Close Pull Request Job
+    needs: build
+    permissions:
+      id-token: write #This is required for requesting the JWT
+      contents: read #This is required for actions/checkout
+
     steps:
-      - name: Close Pull Request
-        id: closepullrequest
-        uses: Azure/static-web-apps-deploy@v1
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
         with:
-          # Same valid token as above
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_BIRD_0378E3D2E }}
-          action: "close"
+          name: node-app
+      
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_939CCDF9F9874814B54ED7EDF0B63652 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_63F8A9C5C2E84DF588CD52FCC9CA6F47 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_A0AC9A5E658F43EF9614DC769B77E27A }}
+
+      - name: 'Deploy to Azure Web App'
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'Loginmodule'
+          slot-name: 'Production'
+          package: .
+          
