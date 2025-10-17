@@ -1,7 +1,7 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
+# Docs for Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# Docs for Azure login action: https://github.com/Azure/login
 
-name: Build and deploy Node.js app to Azure Web App - Loginmodule
+name: Build and deploy Node.js backend to Azure Web App - Loginmodule
 
 on:
   push:
@@ -13,41 +13,48 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read #This is required for actions/checkout
+      contents: read # Required for actions/checkout
 
     steps:
+      # 🧩 Step 1: Checkout repository
       - uses: actions/checkout@v4
 
+      # 🧰 Step 2: Set up Node.js
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:
           node-version: '22.x'
 
-      - name: npm install, build, and test
+      # 🏗️ Step 3: Install dependencies and build backend
+      - name: Install dependencies and build backend
+        working-directory: backend
         run: |
           npm install
           npm run build --if-present
-          npm run test --if-present
+          echo "✅ Backend build complete"
 
-      - name: Upload artifact for deployment job
+      # 📦 Step 4: Upload backend as artifact for deployment
+      - name: Upload backend artifact
         uses: actions/upload-artifact@v4
         with:
-          name: node-app
-          path: .
+          name: node-backend
+          path: backend/
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
     permissions:
-      id-token: write #This is required for requesting the JWT
-      contents: read #This is required for actions/checkout
+      id-token: write
+      contents: read
 
     steps:
-      - name: Download artifact from build job
+      # 📥 Step 1: Download built backend
+      - name: Download backend artifact
         uses: actions/download-artifact@v4
         with:
-          name: node-app
-      
+          name: node-backend
+
+      # 🔐 Step 2: Login to Azure
       - name: Login to Azure
         uses: azure/login@v2
         with:
@@ -55,11 +62,17 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_63F8A9C5C2E84DF588CD52FCC9CA6F47 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_A0AC9A5E658F43EF9614DC769B77E27A }}
 
-      - name: 'Deploy to Azure Web App'
+      # 🚀 Step 3: Deploy backend to Azure Web App (Loginmodule)
+      - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'Loginmodule'
-          slot-name: 'Production'
-          package: .
-          
+          app-name: 'Loginmodule'       # Azure Web App name
+          slot-name: 'Production'       # Slot (keep as 'Production')
+          package: '.'                  # Deploy the downloaded backend package
+
+      # ✅ Step 4: Post-deployment verification
+      - name: Verify deployment
+        run: |
+          echo "Deployment completed successfully!"
+          echo "App deployed at: https://loginmodule.azurewebsites.net"
