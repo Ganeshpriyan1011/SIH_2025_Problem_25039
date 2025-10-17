@@ -2,50 +2,56 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
-const path = require('path'); // ✅ Added for serving static files
+const path = require('path');
 const azureStorage = require('./services/azure-storage');
 
 const app = express();
 
-// Middleware
+// ✅ Middleware
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({
-  origin: process.env.CORS_ORIGIN,
-  credentials: process.env.CORS_CREDENTIALS === 'true'
-}));
+app.use(
+  cors({
+    origin: process.env.CORS_ORIGIN || '*',
+    credentials: process.env.CORS_CREDENTIALS === 'true',
+  })
+);
 
-// Initialize Azure Container
+// ✅ Graceful Azure Storage initialization
 (async () => {
   try {
     await azureStorage.initializeContainer();
-    console.log('Azure storage container initialized successfully');
+    console.log('✅ Azure storage container initialized successfully');
   } catch (error) {
-    console.error('Failed to initialize Azure container:', error);
-    process.exit(1);
+    console.error('❌ Failed to initialize Azure container:', error.message);
+    // Don't crash immediately in Azure — just log it
   }
 })();
 
-// API Routes
+// ✅ API Routes
 app.use('/api/auth', require('./routes/auth'));
 
-// ✅ Serve React frontend build files (AFTER routes)
-app.use(express.static(path.join(__dirname, '../../frontend/build')));
+// ✅ Serve React frontend build (if it exists)
+const frontendPath = path.join(__dirname, '../../frontend/build');
+if (process.env.NODE_ENV === 'production' && require('fs').existsSync(frontendPath)) {
+  app.use(express.static(frontendPath));
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../../frontend/build', 'index.html'));
-});
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(frontendPath, 'index.html'));
+  });
+}
 
-// Error handling middleware
+// ✅ Error handling middleware
 app.use((err, req, res, next) => {
-  console.error(err.stack);
+  console.error('🔥 Error stack:', err.stack);
   res.status(err.status || 500).json({
     success: false,
-    message: err.message || 'Internal Server Error'
+    message: err.message || 'Internal Server Error',
   });
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+// ✅ Azure-compatible port configuration
+const PORT = process.env.PORT || 8080; // Azure assigns a dynamic port
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
 });
